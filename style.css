@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: cornsilk;
+
+}
+.turn-container {
+    display: flex;
+    justify-content: center;
+}
+.turn {
+    border:1px solid;
+
+    padding: 5px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+.box {
+    text-align: center;
+    border: 2px solid;
+    cursor: pointer;
+    padding: 20px;
+    background-color:aliceblue;
+   
+}
+.ResetBtn {
+    padding: 5px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 5px;
+    color: brown;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.result-green {
+    color:green;
+    font-weight: bold;
+}
+.result-red {
+    color: red;
+}
+.sty {
+    background-color: aliceblue;
+    font-weight: 500;
+}
